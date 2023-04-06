@@ -6,7 +6,16 @@
 */
 @import url('./reset.css');
 @import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./partials/header.css');
+@import url('./partials/hero.css');
+@import url('./partials/advantages.css');
+@import url('./partials/components.css');
+@import url('./partials/how-its-made.css');
+@import url('./partials/products.css');
+@import url('./partials/reviews.css');
+@import url('./partials/top-sellers.css');
+@import url('./partials/subscribe.css');
+@import url('./partials/footer.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
