@@ -90,6 +90,8 @@ body {
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
+  margin: 0;
+  padding: 0;
 }
 
 .section-title {
@@ -108,17 +110,16 @@ body {
   .container {
     width: 335px;
   }
-
-  @media screen and (min-width: 768px) {
-    .container {
-      width: 704px;
-    }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 704px;
   }
+}
 
-  @media screen and (min-width: 1200px) {
-    .container {
-      width: 1136px;
-    }
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1136px;
   }
 }
 
