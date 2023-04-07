@@ -29,12 +29,12 @@
   font-size: 20px;
   line-height: 1.2;
 
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
 
   color: #ffffff;
   margin-top: 395px;
   max-width: 299px;
-  max-height: 72px;
+  height: 72px;
 }
 .hero-container {
   margin-top: 32px;
@@ -84,7 +84,7 @@
 .hero-link {
   font-size: 12px;
   line-height: 1.16px;
-  letter-spacing: -0.03em;
+  letter-spacing: 0.03em;
   color: #ffffff;
 
   display: flex;
