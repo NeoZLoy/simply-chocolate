@@ -30,7 +30,7 @@
   line-height: 1.22;
 }
 .advantages-text {
-  color: var(--color-white);
+  color: rgba(255, 255, 255, 0.7);
   width: 308px;
 }
 
