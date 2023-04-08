@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
     width: 100%;
     background-color: var(--color-white);
-    margin-top: 72px;
+    padding-top: 72px;
 }
 
 .made-title {
@@ -37,6 +37,7 @@
 
 .made-list {
     margin-top: 20px;
+
     display: flex;
     flex-direction: column;
     padding: 0px;
@@ -44,6 +45,7 @@
 }
 
 .made-item {
+    padding-right: 10px;
     margin-left: 16px;
 
 }
@@ -68,7 +70,7 @@
 
 @media screen and (min-width: 768px) {
     .made-section {
-        margin-top: 100px;
+        padding-top: 100px;
 
     }
 
@@ -89,7 +91,9 @@
 
     .made-list {
         margin-top: 28px;
+        padding-right: 80px;
     }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -102,7 +106,7 @@
     }
 
     .made-section {
-        margin-top: 128px;
+        padding-top: 128px;
     }
 
     .made-title {
@@ -119,5 +123,20 @@
         width: 516px;
         height: 400px;
         margin-top: 0;
+    }
+
+    .made-text {
+        width: 100%;
+        padding-right: 140px;
+    }
+
+    .made-list {
+
+        gap: 24px;
+    }
+
+    .made-item {
+        width: 100%;
+        padding-right: 10px;
     }
 }
