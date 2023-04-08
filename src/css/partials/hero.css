@@ -231,7 +231,7 @@
 .buy-modal-form {
   display: flex;
   flex-direction: column;
-  gap: 18px;
+
   margin-top: 32px;
 }
 .buy-modal-form-input-desc {
@@ -241,8 +241,9 @@
   line-height: 1.16;
 
   letter-spacing: -0.02em;
+  margin-top: 18px;
 }
-.buy-modal-name-wrapper {
+.buy-modal-form-name-wrapper {
   display: flex;
   flex-direction: column;
   gap: 14px;
