@@ -1,0 +1,124 @@
+/* Subscribe */
+
+.subscribe {
+  padding-top: 62px;
+  padding-bottom: 63px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../../img/subcribe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #1e1823;
+  text-align: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .subscribe {
+    background-image: url(../../img/subcribe-2x.jpg);
+  }
+}
+
+.subscribe-content {
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.subscribe-title {
+  max-width: 291px;
+  margin-bottom: 24px;
+  margin-right: auto;
+  margin-left: auto;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+}
+
+.subscribe-description {
+  max-width: 326px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.subscribe-button {
+  padding: 12px 28px;
+  border: 0;
+  border-radius: 100px;
+
+  background-color: #fd9222;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 1.21;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe {
+    padding-top: 72px;
+    padding-bottom: 72px;
+
+    background-image: url(../../img/subscribe-tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe {
+      background-image: url(../../img/subcribe-tablet-2x.jpg);
+    }
+  }
+
+  .subscribe-title {
+    max-width: 378px;
+
+    font-size: 24px;
+    line-height: 1.16;
+  }
+
+  .subscribe-description {
+    max-width: 467px;
+  }
+
+  .subscribe-button {
+    padding: 14px 40px;
+
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    background-image: url(../../img/subscribe-desktop.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe {
+      background-image: url(../../img/subscribe-desktop-2x.jpg);
+    }
+  }
+
+  .subscribe-button {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}

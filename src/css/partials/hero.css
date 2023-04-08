@@ -56,6 +56,9 @@
   line-height: 1.21px;
   color: #ffffff;
   border-radius: 100px;
+  font-family: Motserrat, sans-serif;
+  font-style: semi-bold;
+  font-weight: 600;
 }
 .hero-btn-buy {
   width: 120px;
