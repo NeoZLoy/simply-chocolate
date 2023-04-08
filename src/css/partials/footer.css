@@ -2,8 +2,8 @@
 .footer {
    padding-top: 32px;
    padding-bottom: 32px;
-   background-color: #1E1823;
-   color: #FFFFFF;
+   background-color: var(--color-violet);
+   color: var(--color-white);
    
 }
 @media screen and (min-width:768px){
@@ -13,15 +13,13 @@
     } 
 }
 
-/* .container {
-    outline: 1px solid red;
-} */
 
 @media screen and (min-width:768px) {
     .footer-bloc {
         display: flex;
         gap: 124px;
-margin-bottom: 50px;
+        margin-bottom: 50px;
+
 }
     
 }
@@ -29,13 +27,14 @@ margin-bottom: 50px;
 @media screen and (min-width:1200px){
     .footer-bloc{
         justify-content: space-between;
-        margin-bottom: 0;
+       
     }
 }
 
-
-.container-bloc {
+.footer-text-bloc {
+    display: flex;
 }
+
 
 .footer-contakt-text{
 margin-bottom: 14px;
@@ -44,7 +43,7 @@ margin-bottom: 14px;
 }
 
 .footer-text {
-width: 300px;
+max-width: 300px;
 margin-bottom: 32px;
 padding-right: 55px;
 text-align: left;
@@ -66,13 +65,29 @@ line-height: calc(34/28);
 }
 
 .footer-text-orangе{
-   color:#FD9222 ; 
+   color:var(--color-orange); 
 }
 .footer-address-bloc{
     display: flex;
     justify-content: space-between;
     margin-bottom: 32px;
 }
+
+@media screen and (min-width:768px) {
+    .footer-address-bloc{
+        display: flex;
+        gap: 50px;
+        margin-bottom: 0; 
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+    .footer-address-bloc{
+        gap: 65px;
+    }
+}
+
 .footer-address {
     font-style: normal;
 }
@@ -82,30 +97,32 @@ line-height: calc(34/28);
     gap: 4px;
 }
 
-.header-contakt {
-}
-.link {
-    
-}
 .footer-sauce-bloc {
-    outline: 1px solid red;
+    display: flex;
+    gap: 15px;
+ 
 }
-.socials-item {
+
+@media screen and (min-width:768px) {
+    .footer-sauce-bloc{
+        gap: 20px;
+    }
+    
 }
+
+
 .socials-link {
-    /* fill: #FFFFFF;
-    color: #FFFFFF;
     
-    stroke: #FFFFFF; */
+    stroke: var(--color-white);
+    fill: var(--color-violet);
+   
 }
-.sauce-socials-link {
+
+.socials-link:hover,
+.socials-link:focus{
+stroke: var(--color-orange);
 }
-.socials-icon {
-    /* fill: #FFFFFF;
-    color: #FFFFFF;
-    
-    stroke: #FFFFFF; */
-}
+
 
 .footer-menu-bloc{
     padding-top: 32px;
