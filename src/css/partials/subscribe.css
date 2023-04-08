@@ -7,7 +7,7 @@
   margin-left: auto;
   margin-right: auto;
 
-  background-image: url(/src/img/subcribe.jpg);
+  background-image: url(../../img/subcribe.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -19,7 +19,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .subscribe {
-    background-image: url(/src/img/subcribe-2x.jpg);
+    background-image: url(../../img/subcribe-2x.jpg);
   }
 }
 
@@ -67,14 +67,14 @@
     padding-top: 72px;
     padding-bottom: 72px;
 
-    background-image: url(/src/img/subscribe-tablet.jpg);
+    background-image: url(../../img/subscribe-tablet.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .subscribe {
-      background-image: url(//src/img/top-seller-2-tablet-2x.jpg);
+      background-image: url(../../img/subcribe-tablet-2x.jpg);
     }
   }
 
@@ -99,14 +99,14 @@
 
 @media screen and (min-width: 1200px) {
   .subscribe {
-    background-image: url(/src/img/subscribe-desktop.jpg);
+    background-image: url(../../img/subscribe-desktop.jpg);
   }
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .subscribe {
-      background-image: url(/src/img/subscribe-desktop-2x.jpg);
+      background-image: url(../../img/subscribe-desktop-2x.jpg);
     }
   }
 
@@ -114,4 +114,10 @@
     font-size: 18px;
     line-height: 1.22;
   }
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #fcf1e0;
+  color: #fd9222;
 }
