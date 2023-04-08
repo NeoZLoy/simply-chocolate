@@ -45,14 +45,12 @@
 }
 
 .made-item {
-    padding-right: 10px;
     margin-left: 16px;
 
 }
 
 .made-list-container {
-    width: 307px;
-    height: 416px;
+    width: 335px;
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px 14px;
@@ -127,7 +125,7 @@
 
     .made-text {
         width: 100%;
-        padding-right: 140px;
+
     }
 
     .made-list {
@@ -136,7 +134,6 @@
     }
 
     .made-item {
-        width: 100%;
-        padding-right: 10px;
+        width: 425px;
     }
 }
