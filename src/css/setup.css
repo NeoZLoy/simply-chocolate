@@ -101,6 +101,8 @@ body {
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
+  margin: 0;
+  padding: 0;
 }
 
 .section-title {
