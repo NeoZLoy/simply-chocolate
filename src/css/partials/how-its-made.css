@@ -98,7 +98,6 @@
     .made-container {
         display: flex;
         width: 1136px;
-        height: 400px;
         gap: 20px;
         margin: 0 auto;
     }
@@ -119,14 +118,9 @@
 
     .made-list-container {
         width: 516px;
-        height: 400px;
         margin-top: 0;
     }
 
-    .made-text {
-        width: 100%;
-
-    }
 
     .made-list {
 
