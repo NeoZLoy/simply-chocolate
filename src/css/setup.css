@@ -108,6 +108,9 @@ body {
   letter-spacing: -0.02em;
 }
 
+button {
+  font-family: 'Montserrat';
+}
 .section-title {
   font-family: 'Montserrat';
   font-weight: 600;
