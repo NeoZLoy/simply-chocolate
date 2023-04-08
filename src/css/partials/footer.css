@@ -1,0 +1,140 @@
+
+.footer {
+   padding-top: 32px;
+   padding-bottom: 32px;
+   background-color: #1E1823;
+   color: #FFFFFF;
+   
+}
+@media screen and (min-width:768px){
+    .footer{
+        padding-top: 50px;
+   padding-bottom: 50px;
+    } 
+}
+
+/* .container {
+    outline: 1px solid red;
+} */
+
+@media screen and (min-width:768px) {
+    .footer-bloc {
+        display: flex;
+        gap: 124px;
+margin-bottom: 50px;
+}
+    
+}
+
+@media screen and (min-width:1200px){
+    .footer-bloc{
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+}
+
+
+.container-bloc {
+}
+
+.footer-contakt-text{
+margin-bottom: 14px;
+    font-weight: 500;
+
+}
+
+.footer-text {
+width: 300px;
+margin-bottom: 32px;
+padding-right: 55px;
+text-align: left;
+
+font-weight: 500;
+font-size: 24px;
+line-height:calc(28/24);
+
+}
+@media screen and (min-width:768px) {
+    .footer-text{
+      margin-bottom: 0; 
+      padding-right: 0;
+      
+      font-size: 28px;
+      
+line-height: calc(34/28);
+    } 
+}
+
+.footer-text-orangе{
+   color:#FD9222 ; 
+}
+.footer-address-bloc{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.footer-address {
+    font-style: normal;
+}
+.footer-address-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.header-contakt {
+}
+.link {
+    
+}
+.footer-sauce-bloc {
+    outline: 1px solid red;
+}
+.socials-item {
+}
+.socials-link {
+    /* fill: #FFFFFF;
+    color: #FFFFFF;
+    
+    stroke: #FFFFFF; */
+}
+.sauce-socials-link {
+}
+.socials-icon {
+    /* fill: #FFFFFF;
+    color: #FFFFFF;
+    
+    stroke: #FFFFFF; */
+}
+
+.footer-menu-bloc{
+    padding-top: 32px;
+   border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media screen and (min-width:768px) {
+    .footer-menu-bloc{
+        padding-top: 24px;
+    }
+    
+}
+
+
+.footer-menu{
+     display: flex;
+     flex-direction: column;
+
+    gap: 18px;
+}
+
+@media screen and (min-width:768px) {
+    .footer-menu{
+       flex-direction: row; 
+       gap: 24px;
+    }
+    
+}
+.footer-menu a{
+    font-weight: 500;
+line-height: calc(16 / 14);
+    text-decoration: none;
+}

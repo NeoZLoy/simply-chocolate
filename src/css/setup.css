@@ -108,7 +108,7 @@ body {
   .container {
     width: 335px;
   }
-
+}
   @media screen and (min-width: 768px) {
     .container {
       width: 704px;
@@ -120,7 +120,7 @@ body {
       width: 1136px;
     }
   }
-}
+
 
 /* Visually hidden elements */
 .hidden-visually {
