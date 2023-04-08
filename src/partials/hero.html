@@ -8,12 +8,12 @@
     <div class="hero-container">
       <div class="hero-btn-container">
         <button type="button" class="hero-btn hero-btn-buy">Buy now</button>
-        <a href="how-its-made.html" class="hero-link link hero-btn-how">
+        <a href="#how-its-made" class="hero-link link hero-btn-how">
           How it’s made
         </a>
       </div>
-      <a class="hero-link link" href="footer.html">
-        <p>scroll down</p>
+      <a class="hero-link link" href="#footer">
+        scroll down
         <svg class="hero-scroll-icon" width="22" height="22">
           <use href="../img/sprite.svg#icon-scroll-down"></use>
         </svg>
@@ -21,136 +21,3 @@
     </div>
   </div>
 </section>
-
-<!-- ------------Modal Buy Now--------------------- -->
-
-<div class="backdrop">
-  <div class="buy-modal">
-    <button type="button" class="buy-modal-close-btn" data-modal-close>
-      <svg class="buy-modal-close-icon" width="22" height="22">
-        <use href="../img/sprite.svg#icon-close-button"></use>
-      </svg>
-    </button>
-    <h2 class="buy-modal-header">
-      <span class="buy-modal-header-buy">BUY</span> NOW
-    </h2>
-    <ul class="buy-modal-list list">
-      <li class="buy-modal-item">
-        <img
-          class="buy-modal-img"
-          srcset="../img/buy-now-1.jpg 1x, ../img/buy-now-1-2x.jpg 2x"
-          src="../img/buy-now-1.jpg"
-          alt="#"
-          width="120"
-          height="107"
-        />
-        <button type="button" class="buy-modal-btn">100 g</button>
-      </li>
-      <li class="buy-modal-item">
-        <img
-          class="buy-modal-img"
-          srcset="../img/buy-now-2.jpg 1x, ../img/buy-now-2-2x.jpg 2x"
-          src="../img/buy-now-2.jpg"
-          alt="#"
-          width="120"
-          height="107"
-        />
-        <button type="button" class="buy-modal-btn">200 g</button>
-      </li>
-      <li class="buy-modal-item">
-        <img
-          class="buy-modal-img"
-          srcset="../img/buy-now-3.jpg 1x, ../img/buy-now-3-2x.jpg 2x"
-          src="../img/buy-now-3.jpg"
-          alt="#"
-          width="120"
-          height="107"
-        />
-        <button type="button" class="buy-modal-btn">300 g</button>
-      </li>
-    </ul>
-    <form class="buy-modal-form">
-      <span class="buy-modal-form-input-desc">Personal information</span>
-      <div class="buy-modal-name-wrapper">
-        <label class="buy-modal-form-field">
-          <input
-            type="text"
-            name="user_name"
-            placeholder="Name"
-            class="buy-modal-form-input"
-            required
-            pattern="[a-zA-Z]+"
-            minlength="2"
-          />
-        </label>
-        <label class="buy-modal-form-field">
-          <input
-            type="text"
-            name="user_name"
-            placeholder="Surname"
-            class="buy-modal-form-input"
-            required
-            pattern="[a-zA-Z]+"
-            minlength="2"
-          />
-        </label>
-      </div>
-      <label class="buy-modal-form-field">
-        <span class="buy-modal-form-input-desc">Email</span>
-        <span class="buy-modal-form-input-wrapper">
-          <input
-            type="email"
-            name="user_email_adresses"
-            placeholder="Enter your email"
-            class="buy-modal-form-input"
-            required
-          />
-        </span>
-      </label>
-      <label class="buy-modal-form-field">
-        <span class="buy-modal-form-input-desc">Phone number</span>
-        <span class="buy-modal-form-input-wrapper">
-          <input
-            type="tel"
-            name="user_phone_number"
-            placeholder="Phone number"
-            class="buy-modal-form-input"
-            required
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-            title="xxx-xxx-xx-xx"
-          />
-          <svg class="buy-modal-form-input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-phone"></use>
-          </svg>
-        </span>
-      </label>
-      <label class="buy-modal-form-field">
-        <span class="buy-modal-form-input-desc">Card number</span>
-        <span class="buy-modal-form-input-wrapper">
-          <input
-            type=""
-            name="user_bank_card"
-            placeholder="Enter card"
-            class="buy-modal-form-input"
-            required
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-            title="xxxx-xxxx-xxxx-xxxx"
-          />
-          <svg class="buy-modal-form-input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-phone"></use>
-          </svg>
-        </span>
-      </label>
-      <label class="buy-modal-form-field buy-modal-coments-field">
-        <span class="buy-modal-form-input-desc">Comment</span>
-        <textarea
-          name="user_message"
-          class="buy-modal-form-message"
-          placeholder="Enter text"
-        ></textarea>
-      </label>
-
-      <button type="submit" class="buy-modal-form-submit">Send</button>
-    </form>
-  </div>
-</div>
