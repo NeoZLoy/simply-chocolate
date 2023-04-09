@@ -106,7 +106,8 @@ body {
 }
 
 body.modal-open {
-  overflow: hidden;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 .section-title {
