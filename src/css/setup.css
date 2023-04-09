@@ -8,35 +8,44 @@
 
 /* Fonts */
 @font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url(../fonts/Montserrat-Regular.woff2),
-    url(../fonts/Montserrat-Regular.woff);
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 400;
-  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/Montserrat-Regular.woff2'),
+    url('../fonts/Montserrat-Regular.woff');
 }
-
 @font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url(../fonts/Montserrat-Medium.woff2),
-    url(../fonts/Montserrat-Medium.woff);
+  font-family: 'Montserrat';
+  font-style: medium;
   font-weight: 500;
-  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/Montserrat-Medium.woff2'),
+    url('../fonts/Montserrat-Medium.woff');
 }
-
 @font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url(../fonts/Montserrat-SemiBold.woff2),
-    url(../fonts/Montserrat-SemiBold.woff);
+  font-family: 'Montserrat';
+  font-style: semi bold;
   font-weight: 600;
-  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/Montserrat-SemiBold.woff2'),
+    url('../fonts/Montserrat-SemiBold.woff');
 }
-
 @font-face {
-  font-family: 'Montserrat', sans-serif;
-  src: url(../fonts/Montserrat-BoldItalic.woff2),
-    url(../fonts/Montserrat-BoldItalic.woff);
+  font-family: 'Montserrat';
+  font-style: bold;
   font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Montserrat-Bold.woff2'),
+    url('../fonts/Montserrat-Bold.woff');
+}
+@font-face {
+  font-family: 'Montserrat';
   font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Montserrat-BoldItalic.woff2'),
+    url('../fonts/Montserrat-BoldItalic.woff');
 }
 
 /* Reset styles */
@@ -84,12 +93,20 @@ img {
 
 /* Default styles */
 body {
+  margin: 0;
+  padding: 0;
   color: var(--color-black);
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
+  margin: 0;
+  padding: 0;
+}
+
+body.modal-open {
+  overflow: hidden;
 }
 
 .section-title {
@@ -109,18 +126,18 @@ body {
     width: 335px;
   }
 }
-  @media screen and (min-width: 768px) {
-    .container {
-      width: 704px;
-    }
-  }
 
-  @media screen and (min-width: 1200px) {
-    .container {
-      width: 1136px;
-    }
+@media screen and (min-width: 768px) {
+  .container {
+    width: 704px;
   }
+}
 
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1136px;
+  }
+}
 
 /* Visually hidden elements */
 .hidden-visually {
