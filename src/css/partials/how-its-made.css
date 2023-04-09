@@ -1,8 +1,9 @@
 .made-section {
     font-family: 'Montserrat', sans-serif;
-
     background-color: var(--color-white);
+    padding: 0 20px;
     padding-top: 72px;
+
 }
 
 .made-title {
@@ -20,7 +21,7 @@
 
 .video-box {
 
-    width: 335px;
+
     height: 500px;
     margin: 0 auto;
     border-radius: 15px;
@@ -55,7 +56,7 @@
 }
 
 .made-list-container {
-    width: 335px;
+
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px 14px;
