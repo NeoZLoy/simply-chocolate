@@ -195,8 +195,8 @@
 
 .buy-modal-close-btn:hover,
 .buy-modal-close-btn:focus {
-  background-color: var(--color-orange);
-  fill: var(--color-white);
+  background-color: #fcf1e0;
+  fill: rgba(212, 69, 40, 1);
 }
 .buy-modal-header {
   font-weight: 600;
