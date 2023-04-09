@@ -87,15 +87,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 28px;
-    height: 28px; */
+    width: 28px;
+    height: 28px;
     color: var(--color-white);
     background-color: tomato;
     border: none;
     border-radius: 50%;
 }
 .mobile-menu-close-btn-icon{
-    fill: #FFFFFF;
+    fill: currentColor;
 }
 .mobile-nav-list{
     display: flex;
