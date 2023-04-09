@@ -139,6 +139,28 @@ body.modal-open {
   }
 }
 
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 350px) {
+  section {
+    width: 335px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section {
+    width: 1200px;
+  }
+}
 /* Visually hidden elements */
 .hidden-visually {
   position: absolute;
