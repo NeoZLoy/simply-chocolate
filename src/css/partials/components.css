@@ -113,6 +113,12 @@
   display: flex;
   align-items: center;
 }
+.card-back-item-2:is(:hover, :focus) {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  border-color: transparent;
+}
+
 .card-back-text {
   margin-top: 14px;
   display: -webkit-box;
