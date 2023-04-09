@@ -52,7 +52,7 @@
 }
 .card-back {
   padding: 28px;
-  background: #e2e2e2;
+  background-color: #ffffff;
   border-radius: 15px;
   transform: rotateY(180deg);
 }
@@ -115,6 +115,10 @@
 }
 .card-back-text {
   margin-top: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 @media screen and (min-width: 768px) {
   .components {
@@ -160,5 +164,8 @@
   }
   .components-img {
     max-width: 206px;
+  }
+  .card-back-text-desktop {
+    -webkit-line-clamp: 6;
   }
 }
