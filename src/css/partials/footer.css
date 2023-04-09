@@ -1,15 +1,13 @@
 
 .footer {
-   padding-top: 32px;
-   padding-bottom: 32px;
+   padding: 32px 20px;
    background-color: var(--color-violet);
    color: var(--color-white);
    
 }
 @media screen and (min-width:768px){
     .footer{
-        padding-top: 50px;
-   padding-bottom: 50px;
+    padding: 50px 32px;
     } 
 }
 
@@ -17,7 +15,7 @@
 @media screen and (min-width:768px) {
     .footer-bloc {
         display: flex;
-        gap: 124px;
+        justify-content: space-between;
         margin-bottom: 50px;
 
 }
@@ -113,9 +111,13 @@ line-height: calc(34/28);
 
 .socials-link {
     
-    stroke: var(--color-white);
+    
     fill: var(--color-violet);
    
+}
+
+.socials-icon{
+    fill: var(--color-white);
 }
 
 .socials-link:hover,
