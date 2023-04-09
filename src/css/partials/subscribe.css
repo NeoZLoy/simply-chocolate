@@ -155,9 +155,9 @@
 .modal {
   
   /*! Скрываем окна  */
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden; 
-   */
+  
   
   
   height:350px;
