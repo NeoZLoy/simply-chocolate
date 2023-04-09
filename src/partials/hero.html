@@ -28,8 +28,8 @@
 <div class="backdrop js-overlay-modal"></div>
 <div class="buy-modal modal" data-modal="1">
   <button type="button" class="buy-modal-close-btn js-modal-close">
-    <svg class="buy-modal-close-icon" width="22" height="22">
-      <use href="../img/sprite.svg#icon-close-button"></use>
+    <svg class="buy-modal-close-icon" width="12" height="12">
+      <use href="../img/sprite.svg#icon-close"></use>
     </svg>
   </button>
   <h2 class="buy-modal-header">
@@ -74,7 +74,7 @@
     <span class="buy-modal-form-name-wrapper">
       <span class="buy-modal-form-input-desc">Personal information</span>
       <span class="buy-modal-form-name-input-wrapper">
-        <label class="buy-modal-form-field">
+        <label class="buy-modal-form-field buy-modal-form-field-name">
           <input
             type="text"
             name="user_name"
@@ -85,7 +85,7 @@
             minlength="2"
           />
         </label>
-        <label class="buy-modal-form-field">
+        <label class="buy-modal-form-field buy-modal-form-field-name">
           <input
             type="text"
             name="user_name"
@@ -114,7 +114,7 @@
       <span class="buy-modal-form-input-desc">Phone number</span>
       <span class="buy-modal-form-input-wrapper">
         <span class="buy-modal-tel-img">
-          <svg class="buy-modal-form-input-icon" width="24" height="18">
+          <svg class="buy-modal-form-input-icon-flag" width="24" height="18">
             <use href="../img/sprite.svg#icon-flag"></use>
           </svg>
           +380
@@ -123,7 +123,7 @@
           type="tel"
           name="user_phone_number"
           placeholder="Phone number"
-          class="buy-modal-form-input"
+          class="buy-modal-form-input buy-modal-form-input-tel"
           required
           pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
           title="xxx-xxx-xx-xx"
@@ -142,7 +142,7 @@
           pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
           title="xxxx-xxxx-xxxx-xxxx"
         />
-        <svg class="buy-modal-form-input-icon" width="32" height="21">
+        <svg class="buy-modal-form-input-icon-master" width="32" height="21">
           <use href="../img/sprite.svg#icon-mastercard"></use>
         </svg>
       </span>
