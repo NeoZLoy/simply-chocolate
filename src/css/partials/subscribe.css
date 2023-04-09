@@ -122,3 +122,81 @@
   background-color: #fcf1e0;
   color: #fd9222;
 }
+
+
+
+
+
+ /* Modal  window  subscribe (data-modal-3) */
+
+  /* .subscribe-modal {
+   position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%) scale(1);
+  
+  height:350px;
+max-width:311px;
+    background-image: url(../../img/mod-subscribe.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size:auto 169px;;
+  background-color:var(--color-white);
+  text-align: center;
+  border-radius: 15px;
+ 
+ transition: transform var(--timing-function);
+} 
+
+.modal-btn-subscribe {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #000000;
+   width: 24px;
+   height: 24px;
+   padding: 0;
+   
+   background-color: var(--color-cornflower);
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   border-radius: 50%;
+   cursor: pointer;
+   transition: background-color var(--timing-function), fill var(--timing-function) ;
+  
+  fill: var( --color-orange);
+  background-color: aqua;
+}
+
+
+.modal-form-subscribe {
+margin-top: 169px;
+padding: 32px 24px 32px 24px;
+
+}
+.modal-title-subscribe {
+font-weight: 600;
+font-size: 20px;
+line-height: calc(24/20);
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+
+.modal-title-orange{
+  color:var(--color-orange);
+
+} 
+
+.label-item {
+}
+.modal-input-group {
+}
+.input-mail {
+}
+.frame-focus {
+}
+.btn-modal-subscribe {
+}  */
