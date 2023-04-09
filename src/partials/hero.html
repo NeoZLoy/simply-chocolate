@@ -1,4 +1,4 @@
-<section class="hero container">
+<section class="hero container" id="hero">
   <div class="main-hero-container">
     <h1 class="hidden-visually"></h1>
     <h2 class="hero-title">
@@ -7,7 +7,11 @@
     </h2>
     <div class="hero-container">
       <div class="hero-btn-container">
-        <button type="button" class="hero-btn hero-btn-buy js-open-modal">
+        <button
+          type="button"
+          class="hero-btn hero-btn-buy js-open-modal"
+          data-modal="1"
+        >
           Buy now
         </button>
         <a href="#how-its-made" class="hero-link link hero-btn-how">
@@ -17,7 +21,7 @@
       <a class="hero-link link" href="#footer">
         scroll down
         <svg class="hero-scroll-icon" width="22" height="22">
-          <use href="../img/sprite.svg#icon-scroll-down"></use>
+          <use href="./img/sprite.svg#icon-scroll-down"></use>
         </svg>
       </a>
     </div>
@@ -25,11 +29,10 @@
 </section>
 <!-- ------------Modal Buy Now--------------------- -->
 
-<div class="backdrop js-overlay-modal"></div>
 <div class="buy-modal modal" data-modal="1">
   <button type="button" class="buy-modal-close-btn js-modal-close">
     <svg class="buy-modal-close-icon" width="12" height="12">
-      <use href="../img/sprite.svg#icon-close"></use>
+      <use href="./img/sprite.svg#icon-close"></use>
     </svg>
   </button>
   <h2 class="buy-modal-header">
@@ -39,8 +42,8 @@
     <li class="buy-modal-item">
       <img
         class="buy-modal-img"
-        srcset="../img/buy-now-1.jpg 1x, ../img/buy-now-1-2x.jpg 2x"
-        src="../img/buy-now-1.jpg"
+        srcset="./img/buy-now-1.jpg 1x, ./img/buy-now-1-2x.jpg 2x"
+        src="./img/buy-now-1.jpg"
         alt="#"
         width="120"
         height="107"
@@ -50,8 +53,8 @@
     <li class="buy-modal-item">
       <img
         class="buy-modal-img"
-        srcset="../img/buy-now-2.jpg 1x, ../img/buy-now-2-2x.jpg 2x"
-        src="../img/buy-now-2.jpg"
+        srcset="./img/buy-now-2.jpg 1x, ./img/buy-now-2-2x.jpg 2x"
+        src="./img/buy-now-2.jpg"
         alt="#"
         width="120"
         height="107"
@@ -61,8 +64,8 @@
     <li class="buy-modal-item">
       <img
         class="buy-modal-img"
-        srcset="../img/buy-now-3.jpg 1x, ../img/buy-now-3-2x.jpg 2x"
-        src="../img/buy-now-3.jpg"
+        srcset="./img/buy-now-3.jpg 1x, ./img/buy-now-3-2x.jpg 2x"
+        src="./img/buy-now-3.jpg"
         alt="#"
         width="120"
         height="107"
@@ -115,7 +118,7 @@
       <span class="buy-modal-form-input-wrapper">
         <span class="buy-modal-tel-img">
           <svg class="buy-modal-form-input-icon-flag" width="24" height="18">
-            <use href="../img/sprite.svg#icon-flag"></use>
+            <use href="./img/sprite.svg#icon-flag"></use>
           </svg>
           +380
         </span>
@@ -143,7 +146,7 @@
           title="xxxx-xxxx-xxxx-xxxx"
         />
         <svg class="buy-modal-form-input-icon-master" width="32" height="21">
-          <use href="../img/sprite.svg#icon-mastercard"></use>
+          <use href="./img/sprite.svg#icon-mastercard"></use>
         </svg>
       </span>
     </label>
@@ -158,3 +161,4 @@
     <button type="submit" class="buy-modal-form-submit">Send</button>
   </form>
 </div>
+<div class="backdrop js-overlay-modal"></div>

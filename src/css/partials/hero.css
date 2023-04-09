@@ -59,7 +59,7 @@
   line-height: 1.21px;
   color: #ffffff;
   border-radius: 100px;
-  font-family: Motserrat, sans-serif;
+  font-family: 'Motserrat', sans-serif;
   font-style: semi-bold;
   font-weight: 600;
 }
@@ -145,11 +145,6 @@
   visibility: hidden;
   transition: opacity var(--transition-time), visibility var(--transition-time);
 }
-.backdrop.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
 
 .buy-modal {
   position: absolute;
@@ -168,13 +163,17 @@
   z-index: 30;
   opacity: 0;
   visibility: hidden;
-
   transition: transform 1s linear;
+  overflow-y: scroll;
 }
 .modal.active,
-.backdrop.modal.active {
+.backdrop.active {
   opacity: 1;
   visibility: visible;
+}
+
+.modal::-webkit-scrollbar {
+  width: 0;
 }
 
 .buy-modal-close-btn {

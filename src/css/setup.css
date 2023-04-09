@@ -105,6 +105,10 @@ body {
   padding: 0;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .section-title {
   font-family: 'Montserrat';
   font-weight: 600;
