@@ -6,10 +6,144 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simply chocolate</title>
     
-    <link rel="stylesheet" href="/group-project-16/assets/index-a1eaec41.css">
+    <link rel="stylesheet" href="/group-project-16/assets/index-3c7560ea.css">
   </head>
   <body>
-    
+    <header class="header">
+  <div class="header-container container">
+    <nav class="header-nav">
+      <a href="./index.html" class="header-logo link">
+        <p class="header-logo-text">
+          <span class="header-logo-accent">Simply</span>
+          chocolate
+        </p>
+        <div class="header-logo-icon-wrapper">
+          <svg class="header-logo-icon" width="21" height="21">
+            <use href="../img/sprite.svg#icon-logo"></use>
+          </svg>
+        </div>
+      </a>
+      <ul class="header-nav-list list">
+        <li class="header-nav-item">
+          <a href="./index.html" class="header-nav-link link">Home</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#how-it’s-made" class="header-nav-link link"
+            >How it’s made?</a
+          >
+        </li>
+        <li class="header-nav-item">
+          <a href="#our-products" class="header-nav-link link">Our products</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#top-sellers" class="header-nav-link link">Top sellers</a>
+        </li>
+        <li class="header-nav-item">
+          <a href="#chocolate-is-loved" class="header-nav-link link"
+            >Chocolate is loved</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="mobile-menu-btn js-open-menu">
+      <svg class="mobile-menu-open-btn-icon" width="21" height="14">
+        <use href="../img/sprite.svg#icon-menu-button"></use>
+      </svg>
+    </button>
+    <ul class="header-social-list list">
+      <li class="header-social-item">
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          aria-label="Link to Instagram"
+          class="header-social-link icon-link"
+        >
+          <svg class="header-social-icon" width="24" height="24">
+            <use href="../img/sprite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="header-social-item">
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          aria-label="Link to Twitter"
+          class="header-social-link icon-link"
+        >
+          <svg class="header-social-icon" width="24" height="24">
+            <use href="../img/sprite.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- MOBILE AND TABLET MENU -->
+  <div class="mobile-menu js-menu-container">
+    <div class="mobile-menu-container">
+      <button type="button" class="mobile-menu-close-btn js-close-menu">
+        <svg class="mobile-menu-close-btn-icon" width="12" height="12">
+          <use href="../img/sprite.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-nav">
+        <ul class="mobile-nav-list list">
+          <li class="mobile-nav-item">
+            <a href="./index.html" class="mobile-nav-link link">Home</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a href="#how-it’s-made" class="mobile-nav-link link"
+              >How it’s made?</a
+            >
+          </li>
+          <li class="mobile-nav-item">
+            <a href="#our-products" class="mobile-nav-link link"
+              >Our products</a
+            >
+          </li>
+          <li class="mobile-nav-item">
+            <a href="#top-sellers" class="mobile-nav-link link">Top sellers</a>
+          </li>
+          <li class="mobile-nav-item">
+            <a href="#chocolate-is-loved" class="mobile-nav-link link"
+              >Chocolate is loved</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <ul class="mobile-social-list list">
+        <li class="mobile-social-item">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            aria-label="Link to Instagram"
+            class="mobile-social-link icon-link"
+          >
+            <svg class="mobile-social-icon" width="22" height="22">
+              <use href="../img/sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-social-item">
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            aria-label="Link to Twitter"
+            class="mobile-social-link icon-link"
+          >
+            <svg class="mobile-social-icon" width="22" height="22">
+              <use href="../img/sprite.svg#icon-twitter-mobile"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
     <section class="hero container" id="hero">
   <div class="main-hero-container">
     <h1 class="hidden-visually"></h1>
@@ -499,5 +633,6 @@
 
     
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
