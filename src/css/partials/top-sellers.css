@@ -75,8 +75,6 @@
 @media screen and (min-width: 768px) {
   .sellers {
     padding-top: 100px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
   .sellers-text {
     display: none;
@@ -118,8 +116,6 @@
 @media screen and (min-width: 1200px) {
   .sellers {
     padding-top: 128px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
   .sellers-img {
     max-width: 368px;
