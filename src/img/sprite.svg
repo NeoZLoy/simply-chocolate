@@ -53,5 +53,16 @@
 <path d="M10.909 24v-15.273l14.545 7.636-14.545 7.636z"></path>
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7273" d="M31.636 16c0 8.636-7.001 15.636-15.636 15.636s-15.636-7.001-15.636-15.636c0-8.636 7.001-15.636 15.636-15.636s15.636 7.001 15.636 15.636z"></path>
 </symbol>
+<symbol id="icon-close-black" viewBox="0 0 32 32">
+<path d="M32 3.224l-3.224-3.224-12.776 12.776-12.776-12.776-3.224 3.224 12.776 12.776-12.776 12.776 3.224 3.224 12.776-12.776 12.776 12.776 3.224-3.224-12.776-12.776 12.776-12.776z"></path>
+</symbol>
+<symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 22" id="icon-menu">
+    <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+</defs>
+<symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 18" id="flag">
+    <path d="M23.874 0.293945H0.182129V17.9251H23.874V0.293945Z" fill="#FFD700"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.182129 0.293945H23.874V9.10951H0.182129V0.293945Z" fill="#0057B7"></path>
+  </symbol>
 </defs>
 </svg>
