@@ -163,7 +163,7 @@
   z-index: 30;
   opacity: 0;
   visibility: hidden;
-  transition: transform 1s linear;
+  transition: 0.5s all;
   overflow-y: scroll;
 }
 .modal.active,
