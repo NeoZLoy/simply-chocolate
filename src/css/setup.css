@@ -119,6 +119,10 @@ body.modal-open {
 input {
   font-family: 'Montserrat', sans-serif;
 }
+
+textarea {
+  font-family: 'Montserrat', sans-serif;
+}
 .section-title {
   font-family: 'Montserrat';
   font-weight: 600;
