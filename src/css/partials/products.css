@@ -16,7 +16,7 @@
 .products-title-span {
   color: var(--color-orange);
 }
-.products-list {
+.card {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -80,4 +80,14 @@
 .products-button:is(:hover, :focus) {
   background-color: #fcf1e0;
   color: var(--color-orange);
+}
+.slide-container {
+  max-width: 1136px;
+  width: 100%;
+}
+.swiper-pagination-bullet {
+  background-color: rgba(17, 17, 17, 0.1);
+}
+.swiper-pagination-bullet-active {
+  background-color: #fd9222;
 }
