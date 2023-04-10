@@ -4,6 +4,7 @@
   --color-violet: #1e1823;
   --color-orange: #fd9222;
   --color-white: #fafafa;
+  --color-white-secondary: #fff;
 }
 
 /* Fonts */
@@ -115,7 +116,9 @@ body.modal-open {
   overflow-y: hidden;
   padding-right: 15px;
 }
-
+input {
+  font-family: 'Montserrat', sans-serif;
+}
 .section-title {
   font-family: 'Montserrat';
   font-weight: 600;
