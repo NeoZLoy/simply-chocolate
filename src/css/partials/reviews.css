@@ -71,10 +71,6 @@
   text-align: center;
   color: #111111;
 }
-.review-user-name {
-  padding-top: 58px;
-  padding-bottom: 24px;
-}
 
 .review-user-description {
   font-family: 'Montserrat';
@@ -85,10 +81,9 @@
   text-align: center;
   letter-spacing: -0.02em;
   color: rgba(17, 17, 17, 0.7);
-
+  margin-top: 24px;
   margin-left: 16px;
   margin-right: 16px;
-  padding-bottom: 24px;
 }
 
 .review-user {
