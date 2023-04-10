@@ -16,12 +16,10 @@
   color: var(--color-orange);
 }
 
-.video-box {
+.plyr {
+  width: 335px;
   height: 500px;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .made-text {
@@ -81,7 +79,7 @@
     padding-right: 80px;
   }
 
-  .video-box {
+  .plyr {
     width: 614px;
     height: 400px;
   }
@@ -121,7 +119,7 @@
     width: 425px;
   }
 
-  .video-box {
+  .plyr {
     width: 600px;
     height: 400px;
   }
