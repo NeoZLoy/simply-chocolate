@@ -22,8 +22,10 @@
   margin: 0 auto;
 }
 .plyr__control {
-  background-color: transparent;
-  fill: var(--color-white);
+  opacity: 0;
+}
+.plyr__control:is(:hover, :focus) {
+  opacity: 0;
 }
 .made-text {
   font-weight: 600;
