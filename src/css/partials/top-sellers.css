@@ -59,12 +59,13 @@
 .sellers-img {
   border-radius: 15px;
   height: 464px;
+  width: 100%;
 }
 .sellers-button-wrapper {
   margin-top: 20px;
   text-align: center;
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 350px) {
   .sellers-img {
     max-width: 335px;
   }
