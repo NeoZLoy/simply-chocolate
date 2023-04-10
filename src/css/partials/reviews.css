@@ -253,7 +253,7 @@
   position: absolute;
   top: 14px;
   right: 14px;
-  transform: translateXY(-50%) scale(1);
+  transform: translate(-50%) scale(1);
   transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
