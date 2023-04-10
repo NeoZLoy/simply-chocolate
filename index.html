@@ -5,9 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/group-project-16/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simply chocolate</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.min.css"
+    />
     
-    <script type="module" crossorigin src="/group-project-16/assets/index-902a8b1a.js"></script>
-    <link rel="stylesheet" href="/group-project-16/assets/index-6d09aa8f.css">
+    <script type="module" crossorigin src="/group-project-16/assets/index-11151b68.js"></script>
+    <link rel="stylesheet" href="/group-project-16/assets/index-eba722e2.css">
   </head>
   <body>
     <header class="header">
@@ -525,17 +529,21 @@
     HOW IT’S <span class="made-title-color">MADE?</span>
   </h2>
   <div class="made-container container">
-    <div class="video-box">
+    <div
+      class="how-its-made-video plyr__video-embed"
+      id="how-its-made-player"
+      data-poster="../img/how-its-made-desktop.jpg"
+    >
       <iframe
-        width="100%"
-        height="100%"
         src="https://www.youtube.com/embed/o9Dh7r_Ih5Q"
-        title="YouTube video player"
         frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
-      ></iframe>
+        allowtransparency
+        allow="autoplay"
+      >
+      </iframe>
     </div>
+
     <div class="made-list-container">
       <h3 class="made-text">
         Try our chocolates today and <br />
@@ -920,6 +928,7 @@
     <hr />
 <div class="place-code-here"></div>
 
+    <script src="https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.min.js"></script>
     
   </body>
 </html>
