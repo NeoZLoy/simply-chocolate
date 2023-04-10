@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href=".src/css/partials/reviews.css" />
+  </head>
+
+  <!------------ head-section ------------>
+
+  <!------------ main-section ------------>
+
+  <body class="body">
+    <section class="review container">
+      <h2 class="review-header">
+        <span class="review-header-text">chocolate</span> is loved
+      </h2>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="review-user swiper-slide">
+            <picture class="review-user-picture">
+              <source
+                srcset="
+                  ./src/img/review-victoria.jpg    1x,
+                  ./src/img/review-victoria-2x.jpg 2x
+                "
+              />
+              <img
+                src="./src/img/review-victoria.jpg"
+                alt="review user photo"
+                width="80"
+                height="80"
+              />
+            </picture>
+            <h3 class="review-user-name">Victoria Dobrzhanska</h3>
+            <p class="review-user-description">
+              I love this chocolate bar. Perfect combination of light crispy
+              wafer, covered in a thin layer chocolate.
+            </p>
+          </div>
+
+          <div class="review-user swiper-slide">
+            <picture class="review-user-picture">
+              <source
+                srcset="
+                  ./src/img/review-nazar.jpg    1x,
+                  ./src/img/review-nazar-2x.jpg 2x
+                "
+              />
+              <img
+                src="./src/img/review-nazar.jpg"
+                alt="review user photo"
+                width="80"
+                height="80"
+              />
+            </picture>
+            <h3 class="review-user-name">Nazar Babenko</h3>
+            <p class="review-user-description">
+              This chocolate confection is a delight! A delight! The wafer is
+              light and crisp, the hazelnut cream is smooth, and the chocolate
+              is good.
+            </p>
+          </div>
+
+          <div class="review-user swiper-slide">
+            <picture class="review-user-picture">
+              <source
+                srcset="
+                  ./src/img/review-olena.jpg    1x,
+                  ./src/img/review-olena-2x.jpg 2x
+                "
+              />
+              <img
+                src="./src/img/review-olena.jpg"
+                alt="review user photo"
+                width="80"
+                height="80"
+              />
+            </picture>
+            <h3 class="review-user-name">Olena Kampusch</h3>
+            <p class="review-user-description">
+              Chocolate is a family favourite treat. Love the delicious smooth
+              chocolate and the creaminess inside. The wafer is soft but
+              crunchy.
+            </p>
+          </div>
+
+          <div class="review-user swiper-slide">
+            <picture class="review-user-picture">
+              <source
+                srcset="
+                  ./src/img/review-natalia.jpg    1x,
+                  ./src/img/review-natalia-2x.jpg 2x
+                "
+              />
+              <img
+                src="./src/img/review-natalia.jpg"
+                alt="review user photo"
+                width="80"
+                height="80"
+              />
+            </picture>
+            <h3 class="review-user-name">Natalia Sus</h3>
+            <p class="review-user-description">
+              The chocolate assortment was delicious. Both dark and milk
+              chocolate pieces were smooth and just right on the sweetness
+              level.
+            </p>
+          </div>
+
+          <div class="review-user swiper-slide">
+            <picture class="review-user-picture">
+              <source
+                srcset="
+                  ./src/img/review-danilo.jpg    1x,
+                  ./src/img/review-danilo-2x.jpg 2x
+                "
+              />
+              <img
+                src="./src/img/review-danilo.jpg"
+                alt="review user photo"
+                width="80"
+                height="80"
+              />
+            </picture>
+            <h3 class="review-user-name">Danilo Nottingham</h3>
+            <p class="review-user-description">
+              This is delicious. It so rich and flavorful you don’t need to use
+              as many. I love topping an apple with almond butter and these
+              chips for a snack.
+            </p>
+          </div>
+
+          <div class="review-user swiper-slide">
+            <picture class="review-user-picture">
+              <source
+                srcset="
+                  ./src/img/review-irina.jpg    1x,
+                  ./src/img/review-irina-2x.jpg 2x
+                "
+              />
+              <img
+                src="./src/img/review-irina.jpg"
+                alt="review user photo"
+                width="80"
+                height="80"
+              />
+            </picture>
+            <h3 class="review-user-name">Irina Tydnyuk</h3>
+            <p class="review-user-description">
+              This is simply the best chocolate around, and I'm just thrilled to
+              support a local company! Best local chocolate - world class :)
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <button type="button" data-modal-open class="modal-btn">
+        Leave a review
+      </button>
+    </section>
+
+    <!------------ /main-section ------------>
+
+    <!------------ modal-section ------------>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" js-modal-close class="modal-close">
+          <svg class="close-button" width="12" height="12">
+            <use href="./images/svg/symbol.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <div class="modal-title">
+          leave a review <br />
+          about
+          <span class="header-logo-text">our chocolate</span>
+        </div>
+        <form class="modal-form form">
+          <div class="form-group">
+            <label for="name" class="form-label"></label>
+            <div class="form-control">
+              <input
+                type="text"
+                id="name"
+                class="form-input"
+                name="fullname"
+                required
+                maxlength="20"
+                placeholder="Name"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="form-group-email" class="form-label"></label>
+            <div class="form-control">
+              <input
+                type="email"
+                id="form-group-email"
+                class="form-input"
+                name="email"
+                required
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="phone" class="form-label"></label>
+            <div class="form-control">
+              <div class="country-code">
+                <svg class="country-code-flag" width="24" height="18">
+                  <use href="./images/svg/symbol.svg#flag"></use>
+                </svg>
+                <p class="country-region">+380</p>
+              </div>
+              <input
+                type="tel"
+                id="phone"
+                class="form-input"
+                name="phone"
+                required
+                pattern="[0-9]+"
+                placeholder="Phone number"
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="textarea" class="form-label"></label>
+
+            <textarea
+              name="message"
+              id="textarea"
+              class="form-textarea"
+              placeholder="Enter text"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="modal-btn">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <!------------ /modal-section ------------>
+
+    <script src=".src/scripts/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src=".src/scripts/swiper.js"></script>
+  </body>
+</html>
