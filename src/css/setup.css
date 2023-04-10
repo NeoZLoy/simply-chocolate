@@ -83,6 +83,10 @@ a {
 
 button {
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(17 / 14);
 }
 
 img {
@@ -97,7 +101,7 @@ body {
   padding: 0;
   background-color: var(--color-white);
   color: var(--color-black);
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(18 / 14);
@@ -109,6 +113,7 @@ body {
 body.modal-open {
   height: 100vh;
   overflow-y: hidden;
+  padding-right: 15px;
 }
 
 .section-title {
