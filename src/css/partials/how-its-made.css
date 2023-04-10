@@ -21,10 +21,10 @@
   height: 500px;
   margin: 0 auto;
 }
-.plyr__control {
+.plyr__control.plyr__control--overlaid {
   opacity: 0;
 }
-.plyr__control:is(:hover, :focus) {
+.plyr__control.plyr__control--overlaid:is(:hover, :focus) {
   opacity: 0;
 }
 .made-text {
