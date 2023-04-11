@@ -1,15 +1,27 @@
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
 /* Color variables */
 :root {
   --color-black: #111111;
   --color-violet: #1e1823;
   --color-orange: #fd9222;
   --color-white: #fafafa;
+  --color-white-secondary: #fff;
 }
 
 /* Fonts */
 @font-face {
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url('../fonts/Montserrat-Regular.woff2'),
@@ -17,7 +29,6 @@
 }
 @font-face {
   font-family: 'Montserrat';
-  font-style: medium;
   font-weight: 500;
   font-display: swap;
   src: url('../fonts/Montserrat-Medium.woff2'),
@@ -25,7 +36,6 @@
 }
 @font-face {
   font-family: 'Montserrat';
-  font-style: semi bold;
   font-weight: 600;
   font-display: swap;
   src: url('../fonts/Montserrat-SemiBold.woff2'),
@@ -33,7 +43,6 @@
 }
 @font-face {
   font-family: 'Montserrat';
-  font-style: bold;
   font-weight: 700;
   font-display: swap;
   src: url('../fonts/Montserrat-Bold.woff2'),
@@ -80,9 +89,15 @@ a {
 .link {
   text-decoration: none;
 }
-
+header {
+  margin: 0 auto;
+}
 button {
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(17 / 14);
 }
 
 img {
@@ -93,22 +108,32 @@ img {
 
 /* Default styles */
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  background-color: var(--color-white);
   color: var(--color-black);
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(18 / 14);
   letter-spacing: -0.02em;
-  margin: 0;
   padding: 0;
 }
 
-body.modal-open {
-  overflow: hidden;
+body.modal-open,
+body.menu-open {
+  height: 100vh;
+  overflow-y: hidden;
+  padding-right: 15px;
 }
 
+input {
+  font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+  font-family: 'Montserrat', sans-serif;
+}
 .section-title {
   font-family: 'Montserrat';
   font-weight: 600;
@@ -117,15 +142,16 @@ body.modal-open {
 }
 
 .container {
-  width: 100%;
+  width: auto;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 350px) {
   .container {
     width: 335px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .container {
     width: 704px;
@@ -138,6 +164,28 @@ body.modal-open {
   }
 }
 
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 350px) {
+  section {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  section {
+    width: 1200px;
+  }
+}
 /* Visually hidden elements */
 .hidden-visually {
   position: absolute;

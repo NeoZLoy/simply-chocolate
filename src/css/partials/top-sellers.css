@@ -7,7 +7,8 @@
   padding: 12px 28px;
   border: 0;
   border-radius: 100px;
-
+  width: 120px;
+  height: 41px;
   background-color: var(--color-orange);
   color: #ffffff;
   font-weight: 600;
@@ -58,15 +59,20 @@
 .sellers-img {
   border-radius: 15px;
   height: 464px;
+  width: 100%;
 }
 .sellers-button-wrapper {
   margin-top: 20px;
   text-align: center;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (min-width: 350px) {
   .sellers-img {
     max-width: 335px;
   }
+}
+
+@media screen and (max-width: 767px) {
   .sellers-text-button {
     display: none;
   }
@@ -74,8 +80,6 @@
 @media screen and (min-width: 768px) {
   .sellers {
     padding-top: 100px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
   .sellers-text {
     display: none;
@@ -117,8 +121,6 @@
 @media screen and (min-width: 1200px) {
   .sellers {
     padding-top: 128px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
   .sellers-img {
     max-width: 368px;

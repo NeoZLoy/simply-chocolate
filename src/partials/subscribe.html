@@ -9,6 +9,37 @@
         each piece is a work of art that is sure to please.
       </p>
     </div>
-    <button type="button" class="subscribe-button">Subscribe</button>
+    <button type="button" class="subscribe-button js-open-modal" data-modal="3">
+      Subscribe
+    </button>
   </div>
 </section>
+<!-- ------------Modal Subscribe--------------------- -->
+<div class="modal subscribe-modal" data-modal="3">
+  <button type="button" class="subscribe-modal-close js-modal-close">
+    <svg class="subscribe-modal-close-icon" width="12" height="12">
+      <use href="./img/sprite.svg#icon-close"></use>
+    </svg>
+  </button>
+
+  <h2 class="modal-title">
+    Explore our <br /><span class="modal-title-orange"> new chocolate</span>
+    first!
+  </h2>
+
+  <form class="modal-form-subscribe" name="modal_form_subscribe">
+    <div class="modal-input-group">
+      <input
+        class="input-mail-subscribe frame-focus"
+        id="form_modal_mail"
+        name="form_modal_mail"
+        type="email"
+        placeholder="Enter your email"
+      />
+    </div>
+
+    <button class="btn-modal-subscribe" type="submit">Submit</button>
+  </form>
+</div>
+
+<!-- Подложка под модальным окном -->
