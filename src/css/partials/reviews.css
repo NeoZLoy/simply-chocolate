@@ -152,9 +152,9 @@
   background: #fd9222;
 }
 
-/* -------------------- /swiper-section -------------------- */
+/*  /swiper-section */
 
-/* -------------------- modal-section -------------------- */
+/* modal-section  */
 @media screen and (max-width: 479px) {
   .modal-btn {
     margin-left: auto;
