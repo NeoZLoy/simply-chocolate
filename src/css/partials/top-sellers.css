@@ -65,10 +65,14 @@
   margin-top: 20px;
   text-align: center;
 }
+
 @media screen and (min-width: 350px) {
   .sellers-img {
     max-width: 335px;
   }
+}
+
+@media screen and (max-width: 767px) {
   .sellers-text-button {
     display: none;
   }

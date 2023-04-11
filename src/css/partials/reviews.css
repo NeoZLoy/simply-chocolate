@@ -142,8 +142,7 @@
   height: 13px;
   border-radius: 50%;
   background: rgba(17, 17, 17, 0.3);
-  /* position: absolute;
-  top:300px; */
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .swiper-pagination-bullet-active {

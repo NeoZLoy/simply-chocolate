@@ -120,11 +120,13 @@ body {
   padding: 0;
 }
 
-body.modal-open {
+body.modal-open,
+body.menu-open {
   height: 100vh;
   overflow-y: hidden;
   padding-right: 15px;
 }
+
 input {
   font-family: 'Montserrat', sans-serif;
 }
