@@ -30,6 +30,8 @@
   overflow: hidden;
   transition: all 200ms ease-out;
   cursor: pointer;
+  background-image: url(../../img/how-its-made-desktop.jpg);
+  background-size: cover;
 }
 
 @media screen and (min-width: 350px) {
