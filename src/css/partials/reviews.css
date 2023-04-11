@@ -133,7 +133,7 @@
   }
 }
 
-.swiper-pagination {
+.reviews-pagination {
   position: static;
   margin-top: 32px;
 }
@@ -400,6 +400,7 @@
 @media screen and (min-width: 768px) {
   .leave-review-btn {
     padding: 14px 40px;
+    margin-top: 50px;
   }
 }
 
