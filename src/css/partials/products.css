@@ -86,7 +86,7 @@
   height: 100%;
 }
 .slide-container {
-  width: 1136px;
+  max-width: 1136px;
 }
 
 .products-pagination {
