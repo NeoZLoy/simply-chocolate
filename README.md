@@ -5,7 +5,6 @@ Technical specification: [LINK](https://docs.google.com/spreadsheets/d/18AiL3Qi3
 
 Technologies:
 - JS
-- REST API
 - HTML
 - CSS
 - Figma
